@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- döküman tipini belirtir her html dosyasında olmalıdır-->
+<html lang = "en">
+    <head> 
+        <meta charset = "utf-8"> <!-- karakter kodlama standartını belirtir meta tagı 
+        sitenin bilgi etiketidir -->
+        <meta name = "author" content = "Alper Yorgun"> <!-- yazarın bilgilerini belirtir meta tagı -->
+        <meta name = "description" content = "Learning html"> <!-- sitenin açıklamasını belirtir meta tagı -->
+        <title>My First Web Page</title> <!--web sayfasının başlığını belirler-->
+        <link rel = "icon" href = "icon.JPG" type="image/x-icon"> <!-- web sayfasının ikonu belirtir -->
+        <style>
+            html{
+                font-size: 22px;
+            }
+            body{
+                background-color: #333;
+                color: whitesmoke;
+            }
+        </style>
+    </head>
+    <body>
+       <!-- text basics -->
+        <h1>Hello World!</h1> <!--web sayfasının(body) başlığını belirler-->
+        <hr> <!-- çizgi -->
+        <h2>I'm Ready to go!</h2>
+        <p>This is my first web page</p> <!--web sayfasının(body) içeriğini(paragraf) belirler-->
+        <h3>My Daily Schedule!</h3>
+        <p>Let me tell you how I...
+            <br>&nbsp;&nbsp;I learn more about web dev.. <!--nbsp ekstra boşluk verir-->
+            <br>I plan out my schedule.
+            <br>I use resources from <abbr title="Mozilla Developer Network">MDN</abbr>
+            <!-- mdn üstüne gelindiğide moziila developer network çıkıyor-->
+        </p>
+        <hr>
+        <h2>I'm also planning a vacation</h2>
+        <p>I've been working hard and <em>really need a getaway</em>.</p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
+        <!-- abbr tagının içeriğini kısa yazılımını belirler-->
+        <p>I've heard good things about here:</p>
+        <address>
+            Istanbul, Turkey <br>
+            Bebek Caddesi, No:1 <br>
+        </address> <!--adres bilgilerini belirtmek için kullanırız-->
+
+        <!-- Yorum satırıdır dikkate alınmaz-->
+
+        <h3>Places i like to visit</h3>
+        <p>I've heard good things about the Caribbean.</p>
+        <h3>Places i want to avoid</h3>
+        <p>Anywhere cold. <strong>No way!</strong></p> <!--strong ile belirtilen yer daha kabarık yazılır-->
+        <hr>
+        &equals; <!--  = -->
+        <br>
+        &lt; <!--- < işareti -->
+        <br>
+        &gt; <!--- > işareti -->
+        <br>
+        &amp; <!--- & işareti -->
+        <br>
+        &quot; <!--- " işareti -->
+        <br>
+        &apos; <!--- ' işareti -->
+        <hr>
+        &lt;&lt;&lt; &copy; Alper Yorgun &copy; &gt;&gt;&gt; <!-- &copy; işareti -->
+        <hr>
+        <p>O<sup>2</sup> </p> <!--sup tagının içeriğini yükseltilmiş yazılımı belirler-->
+        <p>H<sub>20</sub> </p> <!--sub tagının içeriğini düşük yazılımı belirler-->
+
+        <hr>
+        <h3>Liste</h3>
+        <br>
+        <li>Prada</li>
+        <li>Gucci</li>
+        <li>Off White</li>
+        <br>
+        <ol> <!-- sıralanmış  liste -->
+            <h3>Sıralanmış Liste</h3>
+             <p>
+                <li>I'm learning about web dev</li> <!--liste içeriğini belirtir-->
+                <li>I plan out my schedule</li> <!--liste içeriğini belirtir-->
+                <li>I use resources from <abbr title="Mozilla Developer Network">MDN</abbr></li> 
+                <!--liste içeriğini belirtir-->
+             </p>
+        </ol>
+        <ul> <!-- sıralanmamış  liste -->
+            <h3>Sıralanmamış liste</h3>
+            <p> 
+                <li>I'm learning about web dev</li> <!--liste içeriğini belirtir-->
+                <li>I plan out my schedule</li> <!--liste içeriğini belirtir-->
+                <li>I use resources from <abbr title="Mozilla Developer Network">MDN</abbr></li>
+                <!--- liste içeriğini belirtir-->
+            </p>
+        </ul>
+
+        <dl> <!-- description list  2 tane eleman alır-->
+            <dt>North Pole</dt> <!--description term anlatmak istediğimiz şeyler-->
+            <dd>I hear this is <strong>cold</strong></dd> <!--description detail anlatmak istediğimiz şeyler hakkında detay-->
+            <dt>South Pole</dt>
+            <dd>I hear this is <strong>warm</strong></dd>
+        </dl>
+
+       
+
+    </body>
+</html>
